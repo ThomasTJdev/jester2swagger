@@ -1,4 +1,4 @@
-<img src="private/jestermyswagger.png" style="display: inline; max-height: 300px">
+<img src="private/jestermyswagger.svg" style="display: inline; max-height: 300px">
 
 # jester2swagger
 
