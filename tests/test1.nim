@@ -12,7 +12,7 @@ import jester2swagger
 
 test "parse single route file":
   swagIt("tests/test_routes.nim", baseurl="nim.nim", print=false, json=true, output="tests")
-  check parseSecureHash("F7222DDE4B9AB4FF3CD0F3762EB714B56A72ECE8") == secureHashFile("tests/test_routes_swagger.json")
+  check parseSecureHash("DDF849CAE5C20931C9709078DE502593814B6788") == secureHashFile("tests/test_routes_swagger.json")
 
 test "parse directory":
   swagIt("tests/multipleRoutes/*", baseurl="nim.nim", print=false, json=true, output="tests/multipleRoutes")

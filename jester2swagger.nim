@@ -341,11 +341,11 @@ proc parseFile(filePath, baseUrl: string): JsonNode =
 
   var swagCon: OrderedTable[string, JsonNode]
   for s in sCon:
-    let urlFormat = s.urlName.replace("@", ":") #.subStr(0, s.urlName.len()-1)
+    let urlFormat = s.urlName.replace("@", ":")
     if s.request in [Get, Delete, Head]:
-      swagCon[urlFormat] = (jsonGet(s.inPath, s.inQuery, s.responses, s.urlName, s.summary, s.codeComment.join("\n"), toLowerAscii($s.request)))
+      swagCon[urlFormat] = (jsonGet(s.inPath, s.inQuery, s.responses, s.urlName, urlFormat, s.codeComment.join("\n"), toLowerAscii($s.request)))
     elif s.request == Post:
-      swagCon[urlFormat] = (jsonPost(s.inPath, s.inQuery, s.responses, s.urlName, s.summary, s.codeComment.join("\n")))
+      swagCon[urlFormat] = (jsonPost(s.inPath, s.inQuery, s.responses, s.urlName, urlFormat, s.codeComment.join("\n")))
 
 
   #

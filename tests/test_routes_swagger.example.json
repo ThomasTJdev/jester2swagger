@@ -14,7 +14,7 @@
   "paths": {
     "/api/token/jwt/request": {
       "post": {
-        "summary": "post '/api/token/jwt/request':",
+        "summary": "/api/token/jwt/request",
         "description": " User can request a new JWT token.",
         "parameters": [],
         "requestBody": {
@@ -51,7 +51,7 @@
     },
     "/api/token/:tokenType/verify": {
       "post": {
-        "summary": "post '/api/token/@tokenType/verify':",
+        "summary": "/api/token/:tokenType/verify",
         "description": "",
         "parameters": [
           {
@@ -85,7 +85,7 @@
     },
     "/api/token/jwt/:signingServer/publickey": {
       "get": {
-        "summary": "get '/api/token/jwt/@signingServer/publickey':",
+        "summary": "/api/token/jwt/:signingServer/publickey",
         "description": "",
         "parameters": [
           {
@@ -115,7 +115,7 @@
     },
     "/": {
       "head": {
-        "summary": "head '/':",
+        "summary": "/",
         "description": "",
         "parameters": [],
         "responses": {
@@ -127,7 +127,7 @@
     },
     "/hello": {
       "get": {
-        "summary": "get '/hello':",
+        "summary": "/hello",
         "description": "",
         "parameters": [],
         "responses": {
@@ -139,7 +139,7 @@
     },
     "/whole/server/:devil": {
       "delete": {
-        "summary": "delete '/whole/server/@devil':",
+        "summary": "/whole/server/:devil",
         "description": "",
         "parameters": [
           {
