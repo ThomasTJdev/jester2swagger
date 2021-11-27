@@ -6,13 +6,13 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   viewBox="0 0 193.85449 197.72995"
+   viewBox="0 0 193.85449 189.65434"
    xml:space="preserve"
    sodipodi:docname="jestermyswagger.svg"
    width="193.85449"
-   height="197.72995"
+   height="189.65434"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
-   inkscape:export-filename="/home/user/git/nim_jester2swagger/private/jestermyswagger.png"
+   inkscape:export-filename="/home/user/git/jester2swagger/private/jestermyswagger.png"
    inkscape:export-xdpi="148.57001"
    inkscape:export-ydpi="148.57001"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,13 +28,13 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    showgrid="false"
-   inkscape:zoom="2.0127028"
-   inkscape:cx="90.922517"
-   inkscape:cy="59.621322"
-   inkscape:window-width="1920"
-   inkscape:window-height="1012"
-   inkscape:window-x="1518"
-   inkscape:window-y="1479"
+   inkscape:zoom="1.6042724"
+   inkscape:cx="-51.73685"
+   inkscape:cy="-5.2983521"
+   inkscape:window-width="2560"
+   inkscape:window-height="1411"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="g126"
    inkscape:snap-nodes="true" />
@@ -59,25 +59,25 @@
 </style>
 <g
    id="g126"
-   transform="translate(46.411644,83.114785)">
+   transform="translate(46.411644,75.039188)">
 	
 	<path
-   style="fill:#07d7f8;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers stroke fill"
-   d="M 91.831593,27.355536 C 96.707872,15.824503 102.71288,4.6886803 112.84292,-2.1398738 123.41645,-4.885383 128.68933,10.061025 142.89456,26.852411 L 135.46146,4.8401649 C 128.45029,-12.069539 118.32466,-38.487906 94.642253,-21.383269 L 68.017994,3.4885257"
+   style="fill:#07d7f8;fill-opacity:1;stroke:#173647;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+   d="M 91.007712,28.558465 C 95.883991,17.027432 101.889,5.8916096 112.01904,-0.93694447 122.59257,-3.6824537 128.68933,10.061025 142.89456,26.852411 L 135.46146,4.8401649 C 128.45029,-12.069539 118.32466,-38.487906 94.642253,-21.383269 L 68.017994,3.4885257"
    id="path2164"
    sodipodi:nodetypes="cccccc"
    inkscape:export-filename="/home/user/git/nim_jester2swagger/private/jestermysvagger.png"
    inkscape:export-xdpi="148.57001"
    inkscape:export-ydpi="148.57001" /><path
-   style="fill:#f84107;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers stroke fill"
-   d="M 9.1051482,27.849586 C 3.5161305,17.712592 -0.34012962,4.6277505 -11.653626,-2.3994827 -22.227153,-5.1449919 -27.500035,9.801416 -41.705268,26.592802 l 7.4331,-22.012246 c 7.011175,-16.909704 13.574954,-42.054889 37.2573612,-24.950252 L 33.673795,3.7355992"
+   style="fill:#f84107;fill-opacity:1;stroke:#173647;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+   d="M 10.47167,29.517554 C 4.8826522,19.38056 -0.34012962,4.6277505 -11.653626,-2.3994827 -22.227153,-5.1449919 -27.500035,9.801416 -41.705268,26.592802 l 7.4331,-22.012246 c 7.011175,-16.909704 13.574954,-42.054889 37.2573612,-24.950252 L 33.673795,3.7355992"
    id="path1113"
    sodipodi:nodetypes="cccccc"
    inkscape:export-filename="/home/user/git/nim_jester2swagger/private/jestermysvagger.png"
    inkscape:export-xdpi="148.57001"
    inkscape:export-ydpi="148.57001" /><path
-   style="fill:#f8b807;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers stroke fill"
-   d="M 29.434283,5.0795954 C 35.964334,-21.791333 42.47722,-41.161019 49.024435,-75.533189 l 3.435289,-0.06661 c 5.827846,35.428787 10.386257,51.723187 19.249504,80.9501427"
+   style="fill:#f8b807;fill-opacity:1;stroke:#173647;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+   d="M 29.279907,7.4171017 C 35.809958,-19.453827 43.159257,-29.248466 49.706472,-63.620636 l 4.417526,0.142488 c 5.827846,35.428787 9.222108,41.706979 18.085355,70.933935"
    id="path2317"
    sodipodi:nodetypes="cccc"
    inkscape:export-filename="/home/user/git/nim_jester2swagger/private/jestermysvagger.png"
@@ -108,7 +108,8 @@
 							<path
    class="st2"
    d="m 50.328,4.769 c 24.996,0 45.258,20.262 45.258,45.258 0,24.995 -20.262,45.258 -45.258,45.258 C 25.333,95.285 5.07,75.022 5.07,50.027 5.07,25.032 25.333,4.769 50.328,4.769 M 50.328,0 C 22.743,0 0.301,22.442 0.301,50.027 c 0,27.585 22.442,50.027 50.027,50.027 27.585,0 50.028,-22.442 50.028,-50.027 C 100.356,22.442 77.913,0 50.328,0 Z"
-   id="path22" />
+   id="path22"
+   style="stroke-width:1.00023;stroke-miterlimit:4;stroke-dasharray:none" />
 						</g>
 					</g>
 				</g>
@@ -146,12 +147,12 @@
    inkscape:export-filename="/home/user/git/nim_jester2swagger/private/jestermysvagger.png"
    inkscape:export-xdpi="148.57001"
    inkscape:export-ydpi="148.57001" /><ellipse
-   style="fill:#173647;fill-opacity:1;stroke:#173647;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+   style="fill:#173647;fill-opacity:1;stroke:#173647;stroke-width:5.37728;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
    id="ellipse10133"
-   cx="50.655094"
-   cy="-78.90641"
-   rx="2.1606457"
-   ry="2.2583747"
+   cx="52.100185"
+   cy="-69.253334"
+   rx="2.9950521"
+   ry="3.0972137"
    inkscape:export-filename="/home/user/git/nim_jester2swagger/private/jestermysvagger.png"
    inkscape:export-xdpi="148.57001"
    inkscape:export-ydpi="148.57001" /><ellipse
