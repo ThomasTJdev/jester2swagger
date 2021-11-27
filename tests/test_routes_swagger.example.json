@@ -1,0 +1,161 @@
+// This file is created during the test "parse single route file". It is
+// included in the test folder as an example output.
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "test_routes",
+    "description": "Jester routes converted to swagger JSON",
+    "version": "1.0.0"
+  },
+  "host": "nim.nim",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/api/token/jwt/request": {
+      "post": {
+        "summary": "post '/api/token/jwt/request':",
+        "description": " User can request a new JWT token.",
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "clientsAPI": {
+                    "description": "clientsAPI",
+                    "type": "string"
+                  },
+                  "userID": {
+                    "description": "userID",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "403": {
+            "description": "resp Http403, $(%* { 'success': false, 'msg': 'Bad API key format'})"
+          },
+          "400": {
+            "description": "resp Http400, $(%* { 'success': false, 'msg': 'Bad API key'})"
+          },
+          "200": {
+            "description": "resp Http200, $(%* { 'token': jwtToken, 'expires': int(epochTime() + exp) })"
+          }
+        }
+      }
+    },
+    "/api/token/:tokenType/verify": {
+      "post": {
+        "summary": "post '/api/token/@tokenType/verify':",
+        "description": "",
+        "parameters": [
+          {
+            "name": "tokenType",
+            "in": "path",
+            "description": "tokenType",
+            "required": true
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "token": {
+                    "description": "token",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "resp Http200, $(%* { 'success': true, 'valid': verifyToken(@'token') })"
+          }
+        }
+      }
+    },
+    "/api/token/jwt/:signingServer/publickey": {
+      "get": {
+        "summary": "get '/api/token/jwt/@signingServer/publickey':",
+        "description": "",
+        "parameters": [
+          {
+            "name": "signingServer",
+            "in": "path",
+            "description": "signingServer",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "alg",
+            "in": "query",
+            "description": "alg",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "resp Http400"
+          },
+          "204": {
+            "description": "resp Http204"
+          }
+        }
+      }
+    },
+    "/": {
+      "head": {
+        "summary": "head '/':",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "204": {
+            "description": "resp Http204"
+          }
+        }
+      }
+    },
+    "/hello": {
+      "get": {
+        "summary": "get '/hello':",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "resp 'Hello'"
+          }
+        }
+      }
+    },
+    "/whole/server/:devil": {
+      "delete": {
+        "summary": "delete '/whole/server/@devil':",
+        "description": "",
+        "parameters": [
+          {
+            "name": "devil",
+            "in": "path",
+            "description": "devil",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "200 - none specified directly"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+tests/test1
+tests/*.json
+tests/multipleRoutes/*.json
+!tests/test_routes_swagger.example.json
+jester2swagger
+testoutput
